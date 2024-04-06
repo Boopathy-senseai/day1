@@ -25,7 +25,7 @@ SECRET_KEY = '6zgf1#f)#ozqr&l5k=^g^zlstuqjpu!vwr87kuw#$=9dj+6%o!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".awsapprunner.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'deploy'
 ]
 
 MIDDLEWARE = [
